@@ -31,7 +31,6 @@ export default {
     getReactionTime() {
       clearInterval(this.currentInterval);
       this.reactionTime = this.currentMs;
-      console.log(this.reactionTime);
       this.endGame();
     },
 
