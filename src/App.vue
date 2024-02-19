@@ -1,5 +1,5 @@
 <template>
-  <h1>Let's see how fast your reflexes is</h1>
+  <h1>Let's see how fast your reflexes are</h1>
   <button
     @click="startGame"
     :disabled="hasStarted"
@@ -65,6 +65,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+h1 {
+  font-size: 24px;
 }
 
 button {
